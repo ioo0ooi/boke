@@ -1,0 +1,13 @@
+baseURL = 'https://ioo0ooi.github.io/boke/'
+languageCode = 'zh-cn'
+defaultContentLanguage = 'zh-cn'
+title = '我的博客'
+theme = 'ananke'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author = 'mql'
